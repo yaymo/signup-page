@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>AnalogSea Account Creation</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="">
 	<meta name="description" content="Create an account with AnalogSea">
 </head>
 <body>
@@ -12,20 +12,21 @@
 <main>
 <form action="/signup/" method="post" class="sign-up">
 	<fieldset name="account-info">
-		<legend> Sign Up </legend>
+		<h3> Sign Up </h3>
 		<label for="email"> Email </label>
-		<input type="email" name="email" id="email" placeholder="foo@bar.com"/>
+		<input type="email" name="email" id="email" placeholder="foo@bar.com" required />
 
 		<label for="password"> Password </label>
-		<input type="text" name="password" id="password" placeholder="1234passw0rd"/>
+		<input type="text" name="password" id="password" placeholder="1234passw0rd" required/>
 
 		<button type="submit" class="submit-info"> Sign Up </button>
-		<a href="#"> Forgot password? </a>
+		<a href="/forgot-password/new" class="password"> Forgot password? </a>
 
 	</fieldset>
 </form>
-
-<h3> Already have an account? <a href="#"> Log in </a></h3>
+<div class="log-in">
+<h4> Already have an account? <a href="#" class="log-in"> Log in </a></h4>
+  </div>
 
 </main>
 

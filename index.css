@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #0198E1;
+}
+
+.logo{
+  height: 35px;
+  display: block;
+  width: auto;
+  margin: 0 auto 30px;
+}
+
+form{
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+fieldset{
+  border-color: transparent;
+  padding-left: 25px;
+  padding-right: 40px;
+}
+input{
+  display: block;
+  width: 320px;
+  border: 2px solid #DDDDDD;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 3px;
+}
+label{
+  display: block;
+  width: 320px;
+  margin: 10px;
+}
+button{
+  display: block;
+  height: 55px;
+  padding: 15px;
+  border: 2px;
+  width: 320px;
+  margin-left: 10px;
+  background-color: #00CD00;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: white;
+}
+h3{
+  text-align: center;
+  font-size: 40px;
+}
+.password{
+  color: grey;
+  font-size: 16px;
+  margin-left: 120px;
+}
+
+.log-in{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
